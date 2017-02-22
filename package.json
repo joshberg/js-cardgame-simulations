@@ -1,0 +1,32 @@
+{
+  "name": "js-cardgame-war-simulation",
+  "version": "0.0.1",
+  "description": "This is a simulation of a war game with a standard deck of cards",
+  "main": "cardsim.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshberg/js-cardgame-war-simulation.git"
+  },
+  "keywords": [
+    "war",
+    "cards",
+    "cardgame",
+    "cardsim",
+    "card",
+    "simulation"
+  ],
+  "author": "Joshua Lindberg",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/joshberg/js-cardgame-war-simulation/issues"
+  },
+  "homepage": "https://github.com/joshberg/js-cardgame-war-simulation#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "hbs": "^4.0.1",
+    "hbs-utils": "0.0.4"
+  }
+}
