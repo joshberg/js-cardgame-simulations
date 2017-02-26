@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/joshberg/js-cardgame-war-simulation#readme",
   "dependencies": {
+    "@joshberg/deck-of-cards": "0.0.1",
     "express": "^4.14.1",
     "hbs": "^4.0.1",
     "hbs-utils": "0.0.4",
