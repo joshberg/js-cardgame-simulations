@@ -4,13 +4,14 @@ const hbsutils = require('hbs-utils')(hbs);
 
 var app = express();
 app.set('view engine', 'hbs');
+app.use(express.static(__dirname + '/public'));
 hbsutils.registerPartials(__dirname + '/views/partials_static');
 hbsutils.registerWatchedPartials(__dirname + '/views/partials_watched');
 
 app.get('/',(req,res)=>{
     var date = new Date();
-    res.render('index',{
-        title: 'MyAwesomeGameToSim',
+    res.render('index.hbs',{
+        title: 'Home',
         year: date.getFullYear(),
         hasStyles: false,
         styles: [],
