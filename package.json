@@ -1,7 +1,7 @@
 {
-  "name": "js-cardgame-war-simulation",
+  "name": "js-cardgame-simulations",
   "version": "0.0.1",
-  "description": "This is a simulation of a war game with a standard deck of cards",
+  "description": "These are simulations of card games using standard decks of cards. First simulation will be the game war.",
   "main": "cardsim.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,7 @@
   "dependencies": {
     "express": "^4.14.1",
     "hbs": "^4.0.1",
-    "hbs-utils": "0.0.4"
+    "hbs-utils": "0.0.4",
+    "jquery": "^3.1.1"
   }
 }
