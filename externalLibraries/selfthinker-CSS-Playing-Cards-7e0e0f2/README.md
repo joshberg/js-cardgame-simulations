@@ -1,5 +1,5 @@
 DISCLAIMER: The CSS Playing Cards library is the property of Anika Henke. It is being used within the bounds of the indicated license agreement.
-No changes have been made to this repository.
+No changes have been made to this repository other than this disclaimer. - Joshua Lindberg
 
 CSS Playing Cards
 =================
