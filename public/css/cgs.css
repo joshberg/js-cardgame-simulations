@@ -1,0 +1,155 @@
+/*******************   Paddings   *******************/
+.p01{
+    padding:0.1rem;
+}
+.p01x{
+    padding-left:0.1rem;
+    padding-right:0.1rem;
+}
+.p01y{
+    padding-top:0.1rem;
+    padding-bottom:0.1rem;
+}
+.p05{
+    padding:0.5rem;
+}
+.p05x{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+.p05y{
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+.p1{
+    padding:1rem;
+}
+.p1x{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.p1y{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*******************   Margins   *******************/
+.m01{
+    margin:0.1rem;
+}
+.m01x{
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+}
+.m01x{
+    margin-top:0.1rem;
+    margin-bottom:0.1rem;
+}
+.m05{
+    margin:0.5rem;
+}
+.m05x{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
+.m05y{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+.m1{
+    margin:1rem;
+}
+.m1x{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.m1y{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*******************   Text/font Modifiers   *******************/
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.txt-center{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+
+/*******************   Floats   *******************/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*******************   Background Colors   *******************/
+.bg-green{
+    background-color: #03CF03;
+}
+.bg-red{
+    background-color: #CF0303;
+}
+.bg-blue{
+    background-color: #0303CF;
+}
+.bg-yellow{
+    background-color: #CFCF03;
+}
+.bg-orange{
+    background-color: #F96933
+}
+.bg-gray{
+    background-color: #999;
+}
+.bg-gray-dark{
+    background-color: #333;
+}
+.bg-gray-light{
+    background-color: #CCC;
+}
+.bg-black{
+    background-color: #000;
+}
+.bg-white{
+    background-color: #FFF;
+}
+
+/*******************   Foreground Colors   *******************/
+.fg-green{
+    color: #03CF03;
+}
+.fg-red{
+    color: #CF0303;
+}
+.fg-blue{
+    color: #0303CF;
+}
+.fg-yellow{
+    color: #CFCF03;
+}
+.fg-orange{
+    color: #F96933
+}
+.fg-gray{
+    color: #999;
+}
+.fg-gray-dark{
+    color: #333;
+}
+.fg-gray-light{
+    color: #CCC;
+}
+.fg-black{
+    color: #000;
+}
+.fg-white{
+    color: #FFF;
+}
