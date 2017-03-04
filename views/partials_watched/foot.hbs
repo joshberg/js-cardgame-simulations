@@ -10,9 +10,10 @@
 </div>
 
 
-<script type="text/javascript" href="/js/other/jquery.min.js"></script>
+<script type="text/javascript" src="/js/other/jquery.min.js"></script>
 <!-- Game Specific Scripts -->
 {{#if hasScripts}}
-{{#list scripts}}
-{{/list}}
+{{#each scripts}}
+{{{this}}}
+{{/each}}
 {{/if}}

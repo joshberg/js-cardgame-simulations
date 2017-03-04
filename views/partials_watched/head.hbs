@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/css/cgs.css"/>
     <!-- Game Specific Styles -->
     {{#if hasStyles}}
-    {{#list styles}}
-    {{/list}}
+    {{#each styles}}
+    {{{this}}}
+    {{/each}}
     {{/if}}
 </head>

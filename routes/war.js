@@ -8,7 +8,7 @@ module.exports = function(app){
             hasStyles: false,
             styles: [],
             hasScripts: false,
-            scripts: []
+            scripts: [`<script type="text/javascript" src="/js/fun.js"></script>`]
         });
     });
 }
